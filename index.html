@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Job Board</h1>
+            <nav>
+                <div class="main2">
+                    <ul>
+                        <li><a href="#featured-jobs">Browse Jobs</a></li>
+                        <li><a href="#browse-jobs">Post a Job</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="login.html" target="_blank"><i class="fa-solid fa-user"> </a></i></li>
+
+
+
+
+                    </ul>
+                </div>
+
+            </nav>
+            <div class="search-container">
+                <input type="text" name="keyword" placeholder="Search for jobs..." class="search-input">
+                <button type="button" class="search-button" alt="Search"><i
+                        class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+        </div>
+    </header>
+
+   
+    <main>
+
+        <section id="featured-jobs">
+            <div class="container1">
+                <h1>Browse Jobs</h1>
+                <div class="displayjobs">
+                    <div class="jobs">
+                        <h2>React JS Developer</h2>
+                        <img src="react.jpeg" alt="Software">
+                        <h3><i class="fa-solid fa-location-crosshairs"></i> Mumbai</h3>
+                        <button>Apply</button>
+                    </div>
+                    <div class="jobs">
+                        <h2>Frontend Developer</h2>
+                        <img src="frontend.jpeg" alt="Software">
+                        <h3><i class="fa-solid fa-location-crosshairs"></i> Bangalore</h3>
+                        <button>Apply</button>
+                    </div>
+                    <div class="jobs">
+                        <h2>Backend Developer</h2>
+                        <img src="backend.jpeg" alt="Software">
+                        <h3><i class="fa-solid fa-location-crosshairs"></i> Delhi</h3>
+                        <button>Apply</button>
+                    </div>
+                    <div class="jobs">
+                        <h2>Node.js Developer</h2>
+                        <img src="nodejs.png" alt="Software">
+                        <h3><i class="fa-solid fa-location-crosshairs"></i> Hyderabad</h3>
+                        <button>Apply</button>
+                    </div>
+                    <div class="jobs">
+                        <h2>MERN Stack Developer</h2>
+                        <img src="mern.png" alt="Software">
+                        <h3><i class="fa-solid fa-location-crosshairs"></i> Chennai</h3>
+                        <button>Apply</button>
+                    </div>
+                </div>
+                <br><br><br><br><br><br><br><br><br><br>
+                <div style="text-align: center;"> <h4>For More Jobs Views</h4> &nbsp; &nbsp; <button><a href="ok.html" target="_blank" style="text-decoration: none;">Click Me</a></button></div>
+            </div>
+        </section>
+        <section id="browse-jobs">
+            <div class="container2">
+                <h1>Post A Job</h1>
+                <label for="job-select">Select a job:</label>
+                <br>
+                <select id="job-select" name="job">
+                    <option value="">Select a Job Title</option>
+                    <option value="react-js-developer">React JS Developer</option>
+                    <option value="frontend-developer">Frontend Developer</option>
+                    <option value="backend-developer">Backend Developer</option>
+
+                    <option value="software-engineer">Software Engineer</option>
+                    <option value="graphic-designer">Graphic Designer</option>
+                    <option value="data-analyst">Data Analyst</option>
+                    <!-- Add more job options here... -->
+                    <option value="customer-service-representative">Customer Service Representative</option>
+                    <option value="marketing-specialist">Marketing Specialist</option>
+                    <option value="human-resources-manager">Human Resources Manager</option>
+                    <!-- Add more job options here... -->
+                </select>
+                <br><br>
+                <label for="location-select">Select a location:</label>
+                <br>
+                <select id="location-select" name="location">
+                    <option value="">Select a location...</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="West Bengal">West Bengal</option>
+                </select>
+                <br><br>
+                <label for="k">Select Number of Openings</label><br>
+                <input oo type="text" placeholder="Eg 2 ">
+                <br>
+                <label for="exp00" > Total experince Required </label>
+                <br>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Fresher</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> Experience</label><br>
+               <h4>Do you offer bonus in addition to monthly salary?</h4>
+               <input type="radio" id="o1" name="option"> <label for="o1">Yes</label>
+               <input type="radio" id="o2" name="option"> <label for="o2">No</label>
+               <br>
+               <label for="kk"> Job Description / Job Details</label>
+               <br>
+               <textarea name="kk1" id="kk" rows="10" cols="30" ></textarea>
+               <br>
+
+                <button>Submit</button>
+
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container3">
+            <div id="about">
+                <h1>About Us </h1>
+                <p style="font-size: 28px ; text-align: center;">Welcome to our job board! At takes, we are passionate about connecting talented individuals with
+                    exciting career opportunities.</p>
+              
+
+                <div class="section">
+                    <div class="one">
+                        <h1>Product</h1>
+                        <h3>
+                            Source & attract</h3>
+                        <h3>Evaluate & collaborate</h3>
+                        <h3> Automate & Hire</h3>
+                        <h3> Onboard & Manage</h3>
+                        <h3>Reduce time to Hire </h3>
+                        <h3> Modernize the candidate experience</h3>
+                        <h3> Improve DEI</h3>
+                        <h3> Ensure compliance</h3>
+                        <h3> All features</h3>
+                    </div>
+                    <div class="two">
+                        <h1>
+                            PLATFORM</h1>
+                        <h3>Pricing</h3>
+                        <h3>Post a job for free</h3>
+                        <h3>Accelerate hiring with AI</h3>
+                        <h3>Why Workable</h3>
+                        <h3>Help center</h3>
+                        <h3>Partners & integrations</h3>
+                        <h3>Become a partner</h3>
+                        <h3>Developer API</h3>
+                        <h3>Security</h3>
+                        <h3>Real-time customer satisfaction</h3>
+                    </div>
+                    <div class="three">
+                        <h1>EMPLOYER RESOURCES</h1>
+                        <h3>Job descriptions</h3>
+                        <h3>Applicant tracking</h3>
+                        <h3>Interview questions</h3>
+                        <h3>Hiring resources</h3>
+                        <h3>Hiring templates</h3>
+                        <h3>Hiring tutorials</h3>
+                        <h3>Free Tools for Managers</h3>
+
+                        <section id="jobseeker-resources">
+                            <h3>JOBSEEKER RESOURCES</h3>
+                            <h3>Search for jobs</h3>
+                            <h3>Career Center</h3>
+                        </section>
+                    </div>
+                    <div class="four">
+
+                        <h1>WORKABLE</h1>
+                        <h3>Work with us</h3>
+                        <h3>Backstage</h3>
+                        <h3>Press</h3>
+                        <h3>Contact us</h3>
+                        <h3>About</h3>
+                    </div>
+                </div>
+
+            </div>
+    </footer>
+</body>

@@ -1,0 +1,246 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    text-decoration: none          ;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    font-size:25px ;
+    background-color: black;
+    color: aliceblue;
+}
+.main2{
+    display: flex;
+    justify-content: space-around;
+
+}
+.main2 ul li a {
+    list-style: none;
+    font-size: 20px;
+    text-decoration: none;
+    font-size:25px ;
+    background-color: black;
+    color: aliceblue;
+   
+
+}
+
+ul  {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+li {
+    padding: 9px;
+    
+}
+.search-container {
+    position: relative;
+    left: -100px;
+    display: inline-block;
+}
+
+.search-input {
+    padding-right: 4px; 
+    width: 200px;
+    height: 25px;
+    box-sizing: content-box;
+    padding: 10px;
+
+}
+
+
+.search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 40px; /* Adjust the width of the button */
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.container h1 {
+    font-size: 32px;
+    font-family: fantasy;
+
+}
+.fa-user{
+
+    color: rgb(242, 236, 236);
+}
+.container1{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+}
+.container3{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+}
+.container1 h1 {
+    text-align: center;
+    font-size: 40px;
+
+}
+.sejobs{
+  display: grid;
+  grid-template-columns: 30% 30% 30% 30%;
+  grid-template-rows:30% 30% 30% 30% ;
+    
+    justify-content: space-between;
+    
+    overflow: auto;
+   
+
+}
+.jobs{
+    height: 100px;
+    padding-left: 50px;
+    width: 150px;
+    text-align: center;
+    
+}
+.fa-solid .fa-location-pin{
+    
+   width: 20px;
+
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+.first{
+     padding: 100px;
+     height: 600px;
+
+
+}
+  
+  
+  
+  button:hover {
+    box-shadow: inset 0px 0px 25px #1479EA;
+  }
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(94, 91, 91); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1b1919; 
+}
+.section {
+    display: flex;
+    justify-content: space-around;
+
+}
+.section  h3 {
+    padding: 10px;
+}
+.container2 {
+    text-align: center;
+    width: 100%;
+    height: 750px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    
+    
+}
+.container2 h1{
+    font-size: 40px;
+    font-family: fantasy;
+
+    color: gold;
+}
+.container2 label {
+    font-size: 27px;
+
+}
+[oo]{
+    box-sizing: content-box;
+    padding: 10px; 
+    width: 300px;
+    height: 20px;
+}
+select {
+    box-sizing: content-box;
+    padding: 10px; 
+    width: 300px;
+    height: 20px;
+
+}
+
+button {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #1A1A1A;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #1585e7;
+    background-color: yellow;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 3.75em;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+   }
+   
+   button:disabled {
+    pointer-events: none;
+   }
+   
+   button:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   button:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
+   .displayjobs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+
+.jobs {
+   
+    padding: 20px; /* Optional: Add padding for better spacing */
+}
